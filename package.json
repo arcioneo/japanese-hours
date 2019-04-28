@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
-    "react-analog-clock": "file:../../../react-analog-clock",
+    "react-analog-clock": "^2.1.0",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.0",
     "serve": "^11.0.0"
