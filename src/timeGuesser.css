@@ -1,0 +1,56 @@
+.timeGuesser {
+  width: 800px;
+  height: 330px;
+  border: 0px solid;
+}
+
+.clockContainer {
+  position: relative;
+  top: 10px;
+  left: 100px;
+  width: 90%;
+  height: 250px;
+}
+
+.whatTimeIsIt {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  color: green;
+  font-size: 25px;
+}
+
+.formatedTime {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.answer {
+  width: 100%;
+  height: 50px;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.tryAnother {
+  position: relative;
+  top: -300px;
+  left: 550px;
+  background-color: #485461;
+  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=timeGuesser.css.map */
