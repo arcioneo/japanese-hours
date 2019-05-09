@@ -25,6 +25,8 @@ export default function JapaneseTimeQuizz() {
     return (
         <div className="japaneseTimeQuizz">
             < TimeGuesser hour={hour} minute={minute} meridiem={meridiem} answer={answer} tryAnother={tryAnother} />
+            <br/>
+            <a href="http://japanese-numbers-trivia.herokuapp.com/">Click here to study the Japanese numbers...</a>
         </div >
     )
 }
