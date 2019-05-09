@@ -7,7 +7,7 @@ import './japaneseTimeQuizz.css'
 export default function JapaneseTimeQuizz() {
     const [hour, setHour] = useState(getRandomTime(true))
     const [minute, setMinute] = useState(getRandomTime(false))
-    const [meridiem , setMeridiem ] = useState(getRandomMeridiem())
+    const [meridiem, setMeridiem] = useState(getRandomMeridiem())
     const [answer, setAnswer] = useState(getNumberAsText(hour, minute, meridiem))
 
     function tryAnother() {
@@ -23,10 +23,12 @@ export default function JapaneseTimeQuizz() {
     }
 
     return (
-        <div className="japaneseTimeQuizz">
-            < TimeGuesser hour={hour} minute={minute} meridiem={meridiem} answer={answer} tryAnother={tryAnother} />
-            <br/>
+        <div>
+            <div className="japaneseTimeQuizz">
+                < TimeGuesser hour={hour} minute={minute} meridiem={meridiem} answer={answer} tryAnother={tryAnother} />
+            </div >
+            <p />
             <a href="http://japanese-numbers-trivia.herokuapp.com/">Click here to study the Japanese numbers...</a>
-        </div >
+        </div>
     )
 }
