@@ -23,12 +23,13 @@ export default function JapaneseTimeQuizz() {
     }
 
     return (
-        <div>
+        <div className="japaneseTimeQuizz-container">
             <div className="japaneseTimeQuizz">
                 < TimeGuesser hour={hour} minute={minute} meridiem={meridiem} answer={answer} tryAnother={tryAnother} />
             </div >
-            <p />
-            <a href="http://japanese-numbers-trivia.herokuapp.com/">Click here to study the Japanese numbers...</a>
+            <div className="linksToOtherApps">
+                <a href="http://japanese-numbers-trivia.herokuapp.com/">Click to study Japanese Numbers...</a>
+            </div>
         </div>
     )
 }
