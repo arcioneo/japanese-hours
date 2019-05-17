@@ -28,6 +28,8 @@ export default function JapaneseTimeQuizz() {
                 < TimeGuesser hour={hour} minute={minute} meridiem={meridiem} answer={answer} tryAnother={tryAnother} />
             </div >
             <div className="linksToOtherApps">
+                <a href="http://japanese-hiragana-trivia.herokuapp.com/">Click to study Hiragana...</a>
+                <p />
                 <a href="http://japanese-numbers-trivia.herokuapp.com/">Click to study Japanese Numbers...</a>
             </div>
         </div>
